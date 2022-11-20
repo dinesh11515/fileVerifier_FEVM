@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_fileHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "addFile",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_fileHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getFileOrigin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_originAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_fileHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "verifyFileOrigin",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fileVerifier.sol": "fileVerifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fileVerifier.sol": {
+			"keccak256": "0x2540f946b11d72af8cd90ef321c4d26dd73df1982896c1194ae2baf767b734fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aec64eee3e743d9d9d57ef8c34ad6aae4d6d96fe8d72d3c2f736176bfa2422a3",
+				"dweb:/ipfs/QmNxGDxxmyRZStQVxAPPtQYMdnBbtx6ZcEZkR7bssDKz8M"
+			]
+		}
+	},
+	"version": 1
+}
